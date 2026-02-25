@@ -76420,7 +76420,7 @@ function oX() {
   const i = () => {
     (mf("KML Data Filler"),
       window.open(
-        "./KML-Data-Filler-main/index.html",
+        "./Automation-Supporting-Team/KML-Data-Filler-main/index.html",
         "_blank",
         "noopener,noreferrer",
       ));
@@ -76517,7 +76517,7 @@ function oX() {
                             children: "Resource Repository",
                           }),
                           P.jsxs("a", {
-                            href: "/KML-Data-Filler-main/Sample.xlsx",
+                            href: "./Automation-Supporting-Team/KML-Data-Filler-main/Sample.xlsx",
                             download: "sample-kml-data.xlsx",
                             className:
                               "flex items-center justify-between w-full p-4 rounded-lg bg-white/5 hover:bg-white/10 border border-white/5 transition-all group",
@@ -76726,7 +76726,7 @@ function uX() {
   const i = () => {
     (mf("KML Cable Snapper"),
       window.open(
-        "./kml-snapper/index.html",
+        "./Automation-Supporting-Team/kml-snapper/index.html",
         "_blank",
         "noopener,noreferrer",
       ));
@@ -77090,7 +77090,7 @@ function pX() {
   const i = () => {
     (mf("KML Cable Length Filler"),
       window.open(
-        "./KML-Cable-Length-Calculator-main/index.html",
+        "./Automation-Supporting-Team/KML-Cable-Length-Calculator-main/index.html",
         "_blank",
         "noopener,noreferrer",
       ));
@@ -77412,7 +77412,7 @@ function vX() {
   const i = () => {
     (mf("KML Point2Point Data"),
       window.open(
-        "./Cable_Reader-main/index.html",
+        "./Automation-Supporting-Team/Cable_Reader-main/index.html",
         "_blank",
         "noopener,noreferrer",
       ));
@@ -77744,7 +77744,7 @@ function bX() {
   const i = () => {
     (mf("KML Verifier"),
       window.open(
-        "./KML_Verifier-Seconadry-Cable-Reading-main/index.html",
+        "./Automation-Supporting-Team/KML_Verifier-Seconadry-Cable-Reading-main/index.html",
         "_blank",
         "noopener,noreferrer",
       ));
@@ -77856,7 +77856,7 @@ function bX() {
                             className: "grid grid-cols-1 md:grid-cols-2 gap-4",
                             children: [
                               P.jsxs("a", {
-                                href: "./KML-Data-Filler-main/assets/Sample.xlsx",
+                                href: "./Automation-Supporting-Team/KML-Data-Filler-main/assets/Sample.xlsx",
                                 download: "verifier_connectivity_template.xlsx",
                                 className:
                                   "flex items-center justify-between p-4 rounded-xl bg-white/5 hover:bg-white/10 border border-white/5 transition-all group",
@@ -77895,7 +77895,7 @@ function bX() {
                                 ],
                               }),
                               P.jsxs("a", {
-                                href: "./KML-Data-Filler-main/assets/GeoLink_Analysis_Export.xlsx",
+                                href: "./Automation-Supporting-Team/KML-Data-Filler-main/assets/GeoLink_Analysis_Export.xlsx",
                                 download: "verifier_p2p_standard.xlsx",
                                 className:
                                   "flex items-center justify-between p-4 rounded-xl bg-white/5 hover:bg-white/10 border border-white/5 transition-all group",
@@ -78165,7 +78165,7 @@ function TX() {
   const i = () => {
     (mf("NESA Generator"),
       window.open(
-        "./NESA-file-Generator-main/index.html",
+        "./Automation-Supporting-Team/NESA-file-Generator-main/index.html",
         "_blank",
         "noopener,noreferrer",
       ));
@@ -78272,7 +78272,7 @@ function TX() {
                           P.jsx("div", {
                             className: "max-w-md",
                             children: P.jsxs("a", {
-                              href: "./NESA-file-Generator-main/assets/NESA-Sample-File.csv",
+                              href: "./Automation-Supporting-Team/NESA-file-Generator-main/assets/NESA-Sample-File.csv",
                               download: "nesa_input_template.xlsx",
                               className:
                                 "flex items-center justify-between p-4 rounded-xl bg-white/5 hover:bg-white/10 border border-white/5 transition-all group",
@@ -78541,7 +78541,7 @@ function CX() {
   const i = () => {
     (mf("Inventory Generator"),
       window.open(
-        "./Inventory-Export-Automation-main/index.html",
+        "./Automation-Supporting-Team/Inventory-Export-Automation-main/index.html",
         "_blank",
         "noopener,noreferrer",
       ));
@@ -78648,7 +78648,7 @@ function CX() {
                           P.jsx("div", {
                             className: "max-w-md",
                             children: P.jsxs("a", {
-                              href: "./Inventory-Export-Automation-main/assets/Inventory.xlsx",
+                              href: "./Automation-Supporting-Team/Inventory-Export-Automation-main/assets/Inventory.xlsx",
                               download: "inventory_input_template.xlsx",
                               className:
                                 "flex items-center justify-between p-4 rounded-xl bg-white/5 hover:bg-white/10 border border-white/5 transition-all group",
@@ -78929,7 +78929,7 @@ function NX() {
   const i = () => {
     (mf("ODF PDF to Excel"),
       window.open(
-        "./OBD_PDF_File_Reader-main/index.html",
+        "./Automation-Supporting-Team/OBD_PDF_File_Reader-main/index.html",
         "_blank",
         "noopener,noreferrer",
       ));
