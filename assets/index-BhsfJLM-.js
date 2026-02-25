@@ -78272,8 +78272,8 @@ function TX() {
                           P.jsx("div", {
                             className: "max-w-md",
                             children: P.jsxs("a", {
-                              href: "./Automation-Supporting-Team/NESA-file-Generator-main/assets/NESA-Sample-File.xlsx",
-                              download: "nesa_input_template.xlsx",
+                              href: "./Automation-Supporting-Team/NESA-file-Generator-main/assets/NESA-Sample-File.csv",
+                              download: "nesa_input_template.csv",
                               className:
                                 "flex items-center justify-between p-4 rounded-xl bg-white/5 hover:bg-white/10 border border-white/5 transition-all group",
                               children: [
