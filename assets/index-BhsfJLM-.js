@@ -76517,7 +76517,7 @@ function oX() {
                             children: "Resource Repository",
                           }),
                           P.jsxs("a", {
-                            href: "./Automation-Supporting-Team/KML-Data-Filler-main/Sample.xlsx",
+                            href: "./Automation-Supporting-Team/KML-Data-Filler-main/assets/Sample.xlsx",
                             download: "sample-kml-data.xlsx",
                             className:
                               "flex items-center justify-between w-full p-4 rounded-lg bg-white/5 hover:bg-white/10 border border-white/5 transition-all group",
@@ -78272,7 +78272,7 @@ function TX() {
                           P.jsx("div", {
                             className: "max-w-md",
                             children: P.jsxs("a", {
-                              href: "./Automation-Supporting-Team/NESA-file-Generator-main/assets/NESA-Sample-File.csv",
+                              href: "./Automation-Supporting-Team/NESA-file-Generator-main/assets/NESA-Sample-File.xlsx",
                               download: "nesa_input_template.xlsx",
                               className:
                                 "flex items-center justify-between p-4 rounded-xl bg-white/5 hover:bg-white/10 border border-white/5 transition-all group",
