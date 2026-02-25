@@ -79273,7 +79273,11 @@ function PX({ onLogin: i }) {
 function IX() {
   const [i, e] = ie.useState(() => localStorage.getItem("ast_user")),
     t = (n) => {
-      (e(n), localStorage.setItem("ast_user", n));
+      e(n); 
+  	  localStorage.setItem("ast_user", n);
+      if (!n) { // If logging out (setting user to null/empty)
+      	window.location.href = "https://princeyadav78.github.io/Automation-Supporting-Team/";
+      }
     };
   return i
     ? P.jsx($I, {
