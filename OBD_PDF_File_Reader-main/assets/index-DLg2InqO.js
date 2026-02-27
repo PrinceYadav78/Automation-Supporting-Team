@@ -64430,7 +64430,7 @@ Others: ${c}`,
     console.error("Failed to send webhook logs", m);
   }
 }
-const w0e = () => "AIzaSyDMmhEWpiCanLZSLkeGSxcZA1xOzvKlfK8",
+const w0e = () => "AIzaSyCakjzbnbRBsqnTjj6txjC76d0EASw3NLs",
   C0e = () => {
     const [e, t] = M.useState([]),
       [n, r] = M.useState(""),
