@@ -12,6 +12,27 @@
         background-color: #f3f4f6;
       }
     </style>
+    <script>
+      // This intercepts network requests before they leave the browser
+      const originalFetch = window.fetch;
+      window.fetch = async function() {
+        let [resource, config] = arguments;
+    
+        // Check if the request is trying to go to the Gemini API
+        if (typeof resource === 'string' && resource.includes('generativelanguage.googleapis.com')) {
+      
+          // REROUTE TO YOUR CLOUDFLARE WORKER:
+          // ⚠️ Change this URL to your actual Cloudflare Worker URL!
+          const workerUrl = 'https://gemini-obd-proxy.princeab9685.workers.dev/';
+      
+          // Keep the exact path the app was trying to reach, but change the destination
+          const urlObj = new URL(resource);
+          resource = workerUrl + urlObj.pathname;
+      }
+    
+      return originalFetch(resource, config);
+    };
+    </script>
 
   <script type="importmap">
 {
